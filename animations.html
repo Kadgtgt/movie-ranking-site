@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="icon" href="./movieicon.jpg" />
+		<link rel="stylesheet" href="./action.css" />
+		<title>Movie Ranking</title>
+	</head>
+	<body>
+		<header class="pt-[10px]">
+			<div class="navbar bg-black">
+				<div class="navbar-start">
+					<div class="dropdown">
+						<div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="h-5 w-5"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke="currentColor"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M4 6h16M4 12h8m-8 6h16"
+								/>
+							</svg>
+						</div>
+						<ul
+							tabindex="0"
+							class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+						>
+							<li><a>Home</a></li>
+							<li>
+								<a>Movies</a>
+								<ul class="p-2">
+									<li><a href="./action.html">Action</a></li>
+									<li><a href="./adventures.html">Adventure</a></li>
+								</ul>
+							</li>
+							<li><a>About Us</a></li>
+							<li><a>Contact Us</a></li>
+						</ul>
+					</div>
+					<a class="btn btn-ghost text-3xl font-bold" href="./landingpage.html"
+						>Dev|Movies</a
+					>
+				</div>
+				<div class="navbar-center hidden lg:flex">
+					<ul class="menu menu-horizontal px-1 text-[16px]">
+						<li><a href="./index.html">Home</a></li>
+						<li>
+							<details>
+								<summary>Movies</summary>
+								<ul class="p-2">
+									<li><a href="./action.html">Action</a></li>
+									<li><a href="./adventures.html">Adventure</a></li>
+								</ul>
+							</details>
+						</li>
+					</ul>
+				</div>
+				<div class="navbar-end animate-bounce">
+					<a class="btn" href="https://www.youtube.com/watch?v=tztCsUyiQv8"
+						>Best Ranked Movie</a
+					>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<div>
+				<p class="text-center text-white text-[45px] pt-[10px] font-bold">
+					Find the best Animations here.
+				</p>
+			</div>
+		</main>
+
+		<section class="grid h-min grid-rows-2 grid-flow-col gap-3 pt-[15px] pb-[20px]">
+			<div class="card w-96 bg-base-100 shadow-xl ml-[15px]">
+				<figure><img src="./animes/anime1.jpg" alt="movie" /></figure>
+				<div class="card-body">
+					<h2 class="card-title">300 Men</h2>
+					<p>If a dog chews shoes whose shoes does he choose?</p>
+					<div class="card-actions justify-end hover:animate-bounce">
+						<button class="btn btn-primary">Watch</button>
+					</div>
+				</div>
+				<div class="rating gap-1 pb-[30px] pl-[10px]">
+					<input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+					<input
+						type="radio"
+						name="rating-3"
+						class="mask mask-heart bg-orange-400"
+						checked
+					/>
+					<input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+					<input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+					<input type="radio" name="rating-3" class="mask mask-heart bg-green-400" />
+				</div>
+			</div>
+
+			<div class="card w-96 bg-base-100 shadow-xl ml-[15px]">
+				<figure><img src="./animes/anime2.jpg" alt="movie" /></figure>
+				<div class="card-body">
+					<h2 class="card-title">Shoes!</h2>
+					<p>If a dog chews shoes whose shoes does he choose?</p>
+					<div class="card-actions justify-end hover:animate-bounce">
+						<button class="btn btn-primary">Watch</button>
+					</div>
+				</div>
+				<div class="rating gap-1 pb-[30px] pl-[10px]">
+					<input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+					<input
+						type="radio"
+						name="rating-2"
+						class="mask mask-heart bg-orange-400"
+						checked
+					/>
+					<input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+					<input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+					<input type="radio" name="rating-3" class="mask mask-heart bg-green-400" />
+				</div>
+			</div>
+
+			<div class="card w-96 bg-base-100 shadow-xl ml-[15px]">
+				<figure><img src="./animes/anime3.jpg" alt="movie" /></figure>
+				<div class="card-body">
+					<h2 class="card-title">Shoes!</h2>
+					<p>If a dog chews shoes whose shoes does he choose?</p>
+					<div class="card-actions justify-end hover:animate-bounce">
+						<button class="btn btn-primary">Watch</button>
+					</div>
+				</div>
+				<div class="rating gap-1 pb-[30px] pl-[10px]">
+					<input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+					<input
+						type="radio"
+						name="rating-1"
+						class="mask mask-heart bg-orange-400"
+						checked
+					/>
+					<input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+					<input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+					<input type="radio" name="rating-3" class="mask mask-heart bg-green-400" />
+				</div>
+			</div>
+
+			<div class="card w-96 bg-base-100 shadow-xl ml-[15px]">
+				<figure><img src="./animes/anime4.jpg" alt="movie" /></figure>
+				<div class="card-body">
+					<h2 class="card-title">Shoes!</h2>
+					<p>If a dog chews shoes whose shoes does he choose?</p>
+					<div class="card-actions justify-end hover:animate-bounce">
+						<button class="btn btn-primary">Watch</button>
+					</div>
+				</div>
+				<div class="rating gap-1 pb-[30px] pl-[10px]">
+					<input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+					<input
+						type="radio"
+						name="rating-3"
+						class="mask mask-heart bg-orange-400"
+						checked
+					/>
+					<input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+					<input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+					<input type="radio" name="rating-3" class="mask mask-heart bg-green-400" />
+				</div>
+			</div>
+
+			<div class="card w-96 bg-base-100 shadow-xl ml-[15px]">
+				<figure><img src="./animes/anime5.jpg" alt="movie" /></figure>
+				<div class="card-body">
+					<h2 class="card-title">Shoes!</h2>
+					<p>If a dog chews shoes whose shoes does he choose?</p>
+					<div class="card-actions justify-end hover:animate-bounce">
+						<button class="btn btn-primary">Watch</button>
+					</div>
+				</div>
+				<div class="rating gap-1 pb-[30px] pl-[10px]">
+					<input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+					<input
+						type="radio"
+						name="rating-2"
+						class="mask mask-heart bg-orange-400"
+						checked
+					/>
+					<input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+					<input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+					<input type="radio" name="rating-3" class="mask mask-heart bg-green-400" />
+				</div>
+			</div>
+
+			<div class="card w-96 bg-base-100 shadow-xl ml-[15px]">
+				<figure><img src="./animes/anime6.jpg" alt="movie" /></figure>
+				<div class="card-body">
+					<h2 class="card-title">Shoes!</h2>
+					<p>If a dog chews shoes whose shoes does he choose?</p>
+					<div class="card-actions justify-end hover:animate-bounce">
+						<button class="btn btn-primary">Watch</button>
+					</div>
+
+					<div class="rating gap-1">
+						<input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+						<input
+							type="radio"
+							name="rating-1"
+							class="mask mask-heart bg-orange-400"
+							checked
+						/>
+						<input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+						<input type="radio" name="rating-3" class="mask mask-heart bg-lime-400" />
+						<input type="radio" name="rating-3" class="mask mask-heart bg-green-400" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- <main>
+			<div>
+				<p class="text-center text-white text-[45px] pt-[200px]">
+					Welcome To OUr Movie Ranking Site. <br />Get some hot
+					<span class="text-[25px] text-[red]"> popcorns + a cold cola </span>as you enjoy
+					your stay.
+				</p>
+			</div>
+		</main> -->
+	</body>
+</html>

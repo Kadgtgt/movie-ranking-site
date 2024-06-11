@@ -1,0 +1,13 @@
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+p {
+	background-image: url(./cinema1.jpg);
+	/* position: absolute; */
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	width: 100%;
+}
